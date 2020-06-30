@@ -1,0 +1,15 @@
+The first is developing a simple greedy algorithm for changing money:
+
+Task 1. The goal in this problem is to find the minimum number of coins needed to change the input value (an integer) into coins with denominations 1, 5, and 10. Input Format. The input consists of a single integer 𝑚. Constraints. 1 ≤ 𝑚 ≤ 103 . Output Format. Output the minimum number of coins with denominations 1, 5, 10 that changes 𝑚. Sample 1. Input: 2 Output: 2 (2 = 1 + 1). Sample 2. Input: 28 Output: 6 (28 = 10 + 10 + 5 + 1 + 1 + 1).  
+
+Now let's make the problem harder. You'll need to implement dynamic programming for this one. 
+
+Task 2. Input Format. Integer money. Output Format. The minimum number of coins with denominations 1, 3, 4 that changes money. Constraints. 1 ≤ money ≤ 103 . Sample 1. Input: 2 Output: 2 (2 = 1 + 1). Sample 2. Input: 34 Output: 9 (34 = 3 + 3 + 4 + 4 + 4 + 4 + 4 + 4 + 4).   
+
+The next one involves developing a greedy algorithm again.
+
+Task 3. Compose the largest number out of a set of integers. Input Format. The first line of the input contains an integer 𝑛. The second line contains integers 𝑎1, 𝑎2, . . . , 𝑎𝑛. Constraints. 1 ≤ 𝑛 ≤ 100; 1 ≤ 𝑎𝑖 ≤ 103 for all 1 ≤ 𝑖 ≤ 𝑛. Output Format. Output the largest number that can be composed out of 𝑎1, 𝑎2, . . . , 𝑎𝑛. Sample 1. Input: Line 1 = 2  Line 2= 21 2 Output: 221.  Sample 2. Input: Line 1: 5 Line 2: 9 4 6 1 9 Output: 99641.  Sample 3:  Input: Line 1: 3 Line 2: 23 39 92 Output: 923923
+
+This next one you'll need to make use of divide and conquer techniques.
+
+Task 4. The goal of this problem is to implement the algorithm for computing the edit distance between two strings (feel free to look up what this means). Input Format. Each of the two lines of the input contains a string consisting of lower case latin letters. Constraints. The length of both strings is at least 1 and at most 100. Output Format. Output the edit distance between the given two strings. Sample 1. Input: ab ab Output: 0 Sample 2. Input: short ports Output: 3  Sample 3. Input: editing distance Output: 5
